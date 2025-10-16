@@ -1,150 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portifolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Eric Cavalcante Monteiro</title>
+
     <style>
-    body {
-        background-color: rgba(85, 21, 131, 0.452);
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+      body {
+        background-color: rgba(85, 21, 131, 0.45);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+          sans-serif;
+        margin: 0;
+        padding: 0;
+      }
 
-    .fundo {
-        width: 1270px;
-        height: 820px;
-        margin: auto;
-        background-color: aliceblue;
-        border-radius: 60px;
-
-    }
-
-    .fundo1 {
+      .container {
         background-color: indigo;
-        width: 1240px;
-        height: 800px;
-        margin: -810px 48px;
-        border-radius: 60px;
-
-    }
-
-    .titulo {
+        width: 90%;
+        max-width: 1200px;
+        margin: 40px auto;
+        border-radius: 40px;
+        padding: 40px;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
         color: aliceblue;
         text-align: center;
-        margin: auto;
-        font-style: inherit;
-    }
+      }
 
-    .texto0 {
-        color: aliceblue;
-        text-align: center;
-        margin: 40px 0px;
-        font-style: inherit;
-    }
+      h1 {
+        margin: 20px 0;
+      }
 
-    .texto1 {
-        color: aliceblue;
-        text-align: center;
-        margin: auto;
+      p {
+        margin: 10px 0;
         font-style: italic;
-    }
+      }
 
-    .texto2 {
-        color: aliceblue;
-        text-align: center;
-        margin: 15px 0px;
-        font-style: italic;
-    }
+      section {
+        margin-top: 40px;
+      }
 
-    .texto3 {
-        color: aliceblue;
-        text-align: center;
-        margin: 15px 0px;
-        font-style: italic;
-    }
-
-    .TITULO1 {
-        color: aliceblue;
-        text-align: center;
-        margin: 50px 0PX;
-        font-style: inherit;
-    }
-
-    .letra0 {
-        color: aliceblue;
-        text-align: center;
-        margin: -25px 0px;
-        font-style: italic;
-    }
-
-    .letra1 {
-        color: aliceblue;
-        text-align: center;
-        margin: 40px 0px;
-        font-style: italic;
-    }
-
-    .letra2 {
-        color: aliceblue;
-        text-align: center;
-        margin: -25px 0px;
-        font-style: italic;
-    }
-
-    .titulo2 {
-        color: aliceblue;
-        text-align: center;
-        margin: 75px 0px;
-        font-style: inherit;
-    }
-
-    .vogal0 {
-        color: aliceblue;
-        text-align: center;
-        margin: -50PX 0PX;
-        font-style: italic;
-    }
-
-    .vogal1 {
-        color: aliceblue;
-        text-align: center;
-        margin: 65px 0px;
-        font-style: italic;
-    }
-
-    .vogal2 {
-        color: aliceblue;
-        text-align: center;
-        margin: -50px 0px;
-        font-style: italic;
-    }
-
-    .vogal3 {
-        color: aliceblue;
-        text-align: center;
-        margin: 65px 0px;
-        font-style: italic;
-    }
-
+      @media (max-width: 700px) {
+        .container {
+          padding: 20px;
+          border-radius: 20px;
+        }
+      }
     </style>
-</head>
-<body>
-    <div class="fundo"></div>
-    <div  class="fundo1"></div>
-        <div class="texto0"><h1>PRAZER<BR>ERIC CAVALCANTE MONTEIRO</h1></div>
-            <div class="titulo"><h1>PESSOAL</div>
-            <div class="texto1"><p>NOME : Eric Cavalcante Monteiro</p></div>
-            <div class="texto2"><p>IDADE : 15 Anos</p></div>
-            <div class="texto3"><p>GOSTO : Ouvir musica e Praticar esportes</p></div>
-            <div class="TITULO1"><h1>PROFISSIONAL</h1></div>
-                <div class="letra0"><p>CURSO : Tecnologia e Informatica</div>
-                    <div class="letra1"><p>PROJETOS : Cardapio Maluco</div>
-                        <div class="letra2"><p>QUALIDADES : Trabalho em Equipe e Facil Dialogo<br> com o Publico</div>
-                            <div class="titulo2"><h1>SONHOS</h1></div>
-                            <div class="vogal0"><p>DESEJO : Me profinalizar na area de T . I</p></div>
-                            <div class="vogal1"><p>Ajudar a minha familia em quetão financeira</div>
-                                <div class="vogal2"><p>Trabalhar na area de desenvolvedor de aplicativo</div>
-                                    <div class="vogal3"><p>Ter uma estabilidade financeira boa<br>no futuro</div>
-                                        
-</body>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header>
+        <h1>PRAZER,<br />ERIC CAVALCANTE MONTEIRO</h1>
+      </header>
+
+      <section id="pessoal">
+        <h1>PESSOAL</h1>
+        <p><strong>Nome:</strong> Eric Cavalcante Monteiro</p>
+        <p><strong>Idade:</strong> 15 anos</p>
+        <p><strong>Gosto:</strong> Ouvir música e praticar esportes</p>
+      </section>
+
+      <section id="profissional">
+        <h1>PROFISSIONAL</h1>
+        <p><strong>Curso:</strong> Tecnologia e Informática</p>
+        <p><strong>Projetos:</strong> Cardápio Maluco</p>
+        <p>
+          <strong>Qualidades:</strong> Trabalho em equipe e fácil diálogo com o
+          público
+        </p>
+      </section>
+
+      <section id="sonhos">
+        <h1>SONHOS</h1>
+        <p><strong>Desejo:</strong> Me profissionalizar na área de T.I.</p>
+        <p>Ajudar a minha família em questão financeira</p>
+        <p>Trabalhar na área de desenvolvedor de aplicativos</p>
+        <p>Ter uma estabilidade financeira boa no futuro</p>
+      </section>
+    </div>
+  </body>
 </html>

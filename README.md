@@ -1,1 +1,1 @@
-Esse site e um portifolio um site que eu falo um pouco sobre eu, um trabalho do curso de T.I
+Este site é um portfólio onde compartilho um pouco sobre mim. Foi desenvolvido como parte de um trabalho do curso de Tecnologia da Informação.
